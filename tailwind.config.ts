@@ -57,6 +57,12 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Portfolio theme colors
+        "dark-primary": "hsl(var(--dark-primary))",
+        "medium-dark": "hsl(var(--medium-dark))",
+        "medium": "hsl(var(--medium))",
+        "light-medium": "hsl(var(--light-medium))",
+        "light": "hsl(var(--light))",
       },
       borderRadius: {
         lg: "var(--radius)",
