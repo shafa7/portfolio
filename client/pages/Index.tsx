@@ -189,7 +189,8 @@ export default function Index() {
                 <img
                   src="https://wallpapers.com/images/featured-full/developer-png-9wxnnbpbatv5o2dn.png"
                   alt="Developer illustration"
-                  className="w-full h-auto"
+                  className="h-auto"
+                  style={{ width: '80%' }}
                 />
               </div>
             </div>
