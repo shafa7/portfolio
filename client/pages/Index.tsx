@@ -25,7 +25,7 @@ export default function Index() {
   const projects: Project[] = [
     {
       name: "Snake Water Gun using Python and Frontend",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2Ffb81a0d583264421bb2181470ed5b9b4?format=webp&width=800",
       github: "https://github.com/shafa7/snake-water-gun",
       description: "Snake Water Gun using Python (random module, nested if and frontend)"
     },
