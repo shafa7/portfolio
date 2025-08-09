@@ -110,7 +110,7 @@ export default function Index() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: 'rgb(1, 1, 27)' }}>
       {/* Navigation Bar */}
-      <nav className="fixed top-0 w-full backdrop-blur-sm z-50 border-b border-gray-700/20" style={{ backgroundColor: 'rgba(1, 1, 27, 0.9)' }}>
+      <nav className="fixed top-0 w-full backdrop-blur-sm z-50 border-b border-gray-700/20" style={{ backgroundColor: 'rgb(18, 18, 62)' }}>
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-xl font-bold text-white">Shafa's Portfolio</div>
@@ -325,7 +325,7 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 border-t border-gray-700" style={{ backgroundColor: 'rgb(1, 1, 27)' }}>
+      <footer className="py-8 border-t border-gray-700" style={{ backgroundColor: '#0e0e1a' }}>
         <div className="container mx-auto px-6 text-center">
           <p className="text-gray-300">
             Copyright © shafasportfolio | All rights reserved
