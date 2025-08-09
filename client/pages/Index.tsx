@@ -26,13 +26,13 @@ export default function Index() {
     {
       name: "Snake Water Gun using Python and Frontend",
       image: "https://cdn.builder.io/api/v1/image/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2Ffb81a0d583264421bb2181470ed5b9b4?format=webp&width=800",
-      github: "https://github.com/shafa7/snake-water-gun",
+      github: "https://github.com/shafa7/Python-Project1",
       description: "Snake Water Gun using Python (random module, nested if and frontend)"
     },
     {
       name: "Face based attendance system using python and openCV",
       image: "https://cdn.builder.io/api/v1/image/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2F86de8d1cdf4248488c9eaff3b9f617cc?format=webp&width=800",
-      github: "https://github.com/shafa7/face-attendance",
+      github: "https://github.com/shafa7/Attendance-Management-system-using-face-recognition-master",
       description: "Face based attendance system using python and openCV"
     }
   ];
