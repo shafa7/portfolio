@@ -63,6 +63,7 @@ export default {
         "medium": "hsl(var(--medium))",
         "light-medium": "hsl(var(--light-medium))",
         "light": "hsl(var(--light))",
+        "purple-accent": "hsl(var(--purple-accent))",
       },
       borderRadius: {
         lg: "var(--radius)",
