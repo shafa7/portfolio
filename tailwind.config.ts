@@ -60,9 +60,9 @@ export default {
         // Portfolio theme colors
         "dark-primary": "hsl(var(--dark-primary))",
         "medium-dark": "hsl(var(--medium-dark))",
-        "medium": "hsl(var(--medium))",
+        medium: "hsl(var(--medium))",
         "light-medium": "hsl(var(--light-medium))",
-        "light": "hsl(var(--light))",
+        light: "hsl(var(--light))",
         "purple-accent": "hsl(var(--purple-accent))",
       },
       borderRadius: {
