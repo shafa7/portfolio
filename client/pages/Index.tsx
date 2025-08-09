@@ -184,7 +184,7 @@ export default function Index() {
             <div className="flex justify-center lg:justify-end">
               <div className="w-full max-w-md">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2Fabfdce49028840a9b05142a369a76cca?format=webp&width=800"
+                  src="https://wallpapers.com/images/featured-full/developer-png-9wxnnbpbatv5o2dn.png"
                   alt="Developer illustration"
                   className="w-full h-auto"
                 />
