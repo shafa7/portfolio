@@ -24,19 +24,16 @@ export default function Index() {
   // Sample projects data - easily extensible
   const projects: Project[] = [
     {
-      name: "Portfolio Website",
+      name: "Snake Water Gun using Python and Frontend",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=300&fit=crop",
-      github: "https://github.com/yourusername/portfolio"
+      github: "https://github.com/shafa7/snake-water-gun",
+      description: "Snake Water Gun using Python (random module, nested if and frontend)"
     },
     {
-      name: "E-commerce Platform",
+      name: "Face based attendance system using python and openCV",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
-      github: "https://github.com/yourusername/ecommerce"
-    },
-    {
-      name: "Task Management App",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop",
-      github: "https://github.com/yourusername/taskmanager"
+      github: "https://github.com/shafa7/face-attendance",
+      description: "Face based attendance system using python and openCV"
     }
   ];
 
@@ -116,7 +113,7 @@ export default function Index() {
       <nav className="fixed top-0 w-full backdrop-blur-sm z-50 border-b border-gray-700/20" style={{ backgroundColor: 'rgba(1, 1, 27, 0.9)' }}>
         <div className="container mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-xl font-bold text-white">Portfolio</div>
+            <div className="text-xl font-bold text-white">Shafa's Portfolio</div>
             <div className="flex space-x-8">
               <button
                 onClick={() => scrollToSection('hero')}
@@ -129,6 +126,12 @@ export default function Index() {
                 className="text-gray-300 hover:text-white transition-colors"
               >
                 About
+              </button>
+              <button
+                onClick={() => scrollToSection('experience')}
+                className="text-gray-300 hover:text-white transition-colors"
+              >
+                Experience
               </button>
               <button
                 onClick={() => scrollToSection('skills')}
@@ -174,9 +177,9 @@ export default function Index() {
                 <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors font-medium">
                   Download Resume
                 </button>
-                <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg transition-colors font-medium">
+                <a href="https://github.com/shafa7" target="_blank" rel="noopener noreferrer" className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg transition-colors font-medium">
                   Visit GitHub
-                </button>
+                </a>
               </div>
             </div>
 
@@ -201,14 +204,14 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-lg leading-relaxed text-gray-300">
-                As a Computer Science undergraduate, I'm passionate about crafting innovative software solutions that make a difference. My journey is driven by the ambition to become a successful software developer, and I'm excited to embrace every learning opportunity. Let's connect and explore the limitless potential of technology together.
+                I'm a dedicated and creative software developer passionate about turning ideas into interactive digital experiences. With a strong foundation in front-end and back-end development, I strive to build user-friendly and impactful applications.
               </p>
             </div>
             <div className="flex justify-center">
               <div className="w-80 h-80 bg-gray-700 rounded-lg flex items-center justify-center">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-                  alt="Profile placeholder"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2F0c40ac75e6a04b9ab8aa30acdbaf3796?format=webp&width=800"
+                  alt="Fathima Shafa"
                   className="w-full h-full object-cover rounded-lg"
                 />
               </div>
@@ -218,7 +221,7 @@ export default function Index() {
       </section>
 
       {/* Experience Section */}
-      <section className="py-20" style={{ backgroundColor: 'rgb(1, 1, 27)' }}>
+      <section id="experience" className="py-20" style={{ backgroundColor: 'rgb(1, 1, 27)' }}>
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-center mb-16 text-white">Experience</h2>
           <div className="max-w-4xl mx-auto">
@@ -293,14 +296,14 @@ export default function Index() {
           <h2 className="text-4xl font-bold text-center mb-16 text-white">Contact Me</h2>
           <div className="flex justify-center space-x-12">
             <a
-              href="mailto:fathimashafa@gmail.com"
+              href="mailto:fshafa2004@gmail.com"
               className="flex flex-col items-center p-8 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
             >
               <i className="fas fa-envelope text-4xl text-gray-300 group-hover:text-white mb-4"></i>
               <span className="text-gray-300 group-hover:text-white font-medium">Gmail</span>
             </a>
             <a
-              href="https://instagram.com/fathimashafa"
+              href="https://www.instagram.com/fshafaaa_/?__pwa=1"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-8 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
@@ -309,7 +312,7 @@ export default function Index() {
               <span className="text-gray-300 group-hover:text-white font-medium">Instagram</span>
             </a>
             <a
-              href="https://linkedin.com/in/fathimashafa"
+              href="https://www.linkedin.com/in/fathimashafamajeed"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-8 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors group"
@@ -325,7 +328,7 @@ export default function Index() {
       <footer className="py-8 border-t border-gray-700" style={{ backgroundColor: 'rgb(1, 1, 27)' }}>
         <div className="container mx-auto px-6 text-center">
           <p className="text-gray-300">
-            © 2024 Fathima Shafa Majeed. Built with React and Tailwind CSS.
+            Copyright © shafasportfolio | All rights reserved
           </p>
         </div>
       </footer>
