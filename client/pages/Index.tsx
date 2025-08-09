@@ -31,7 +31,7 @@ export default function Index() {
     },
     {
       name: "Face based attendance system using python and openCV",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop",
+      image: "https://cdn.builder.io/api/v1/image/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2F86de8d1cdf4248488c9eaff3b9f617cc?format=webp&width=800",
       github: "https://github.com/shafa7/face-attendance",
       description: "Face based attendance system using python and openCV"
     }
