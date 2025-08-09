@@ -9,42 +9,43 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 192 29% 86%; /* #C0C9DB */
-    --foreground: 230 43% 13%; /* #121524 */
+    --background: 231 93% 5%; /* rgb(1, 1, 27) */
+    --foreground: 0 0% 100%; /* white */
 
-    --card: 192 29% 86%; /* #C0C9DB */
-    --card-foreground: 230 43% 13%; /* #121524 */
+    --card: 231 93% 5%; /* rgb(1, 1, 27) */
+    --card-foreground: 0 0% 100%; /* white */
 
-    --popover: 192 29% 86%; /* #C0C9DB */
-    --popover-foreground: 230 43% 13%; /* #121524 */
+    --popover: 231 93% 5%; /* rgb(1, 1, 27) */
+    --popover-foreground: 0 0% 100%; /* white */
 
-    --primary: 230 43% 13%; /* #121524 */
-    --primary-foreground: 192 29% 86%; /* #C0C9DB */
+    --primary: 0 0% 100%; /* white */
+    --primary-foreground: 231 93% 5%; /* rgb(1, 1, 27) */
 
     --secondary: 206 25% 25%; /* #384C65 */
-    --secondary-foreground: 192 29% 86%; /* #C0C9DB */
+    --secondary-foreground: 0 0% 100%; /* white */
 
     --muted: 214 32% 69%; /* #9DACCC */
-    --muted-foreground: 230 43% 13%; /* #121524 */
+    --muted-foreground: 231 93% 5%; /* rgb(1, 1, 27) */
 
     --accent: 210 33% 52%; /* #485F88 */
-    --accent-foreground: 192 29% 86%; /* #C0C9DB */
+    --accent-foreground: 0 0% 100%; /* white */
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 192 29% 86%; /* #C0C9DB */
+    --destructive-foreground: 0 0% 100%; /* white */
 
     --border: 214 32% 69%; /* #9DACCC */
     --input: 214 32% 69%; /* #9DACCC */
-    --ring: 230 43% 13%; /* #121524 */
+    --ring: 231 93% 5%; /* rgb(1, 1, 27) */
 
     --radius: 0.5rem;
 
     /* Portfolio specific colors */
-    --dark-primary: 230 43% 13%; /* #121524 */
+    --dark-primary: 231 93% 5%; /* rgb(1, 1, 27) */
     --medium-dark: 206 25% 25%; /* #384C65 */
     --medium: 210 33% 52%; /* #485F88 */
     --light-medium: 214 32% 69%; /* #9DACCC */
-    --light: 192 29% 86%; /* #C0C9DB */
+    --light: 0 0% 100%; /* white */
+    --purple-accent: 258 100% 70%; /* purple for name and titles */
 
     --sidebar-background: 192 29% 86%;
     --sidebar-foreground: 230 43% 13%;
@@ -103,5 +104,6 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
   }
 }
