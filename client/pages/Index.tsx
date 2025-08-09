@@ -164,10 +164,10 @@ export default function Index() {
             <div className="text-left">
               <div className="text-4xl md:text-5xl lg:text-6xl font-normal leading-tight">
                 <div className="text-white mb-2">Hi, My name is</div>
-                <div className="text-purple-accent font-medium mb-4">Fathima Shafa.</div>
+                <div className="font-medium mb-4" style={{ color: 'rgb(149, 72, 222)' }}>Fathima Shafa.</div>
                 <div className="text-white mb-2">I am a</div>
                 <div className="text-white mb-2">passionate</div>
-                <div className="text-purple-accent font-medium">
+                <div className="font-medium" style={{ color: 'rgb(170, 107, 228)' }}>
                   <span id="element"></span>
                 </div>
               </div>
