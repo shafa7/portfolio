@@ -270,9 +270,9 @@ export default function Index() {
           <div className="max-w-4xl mx-auto">
             <div className="bg-gray-800 p-8 rounded-lg">
               <h3 className="text-xl font-semibold text-white mb-2">
-                Software Development Intern
+                Software Development Student Intern
               </h3>
-              <p className="text-gray-300 mb-2">Tech Company • Summer 2024</p>
+              <p className="text-gray-300 mb-2">Academor • October 2023 to December 2023</p>
               <p className="text-gray-300">
                 Developed and maintained web applications using modern
                 technologies. Collaborated with senior developers to implement
