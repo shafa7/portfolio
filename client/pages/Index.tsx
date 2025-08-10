@@ -196,9 +196,13 @@ export default function Index() {
 
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mt-12">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors font-medium">
+                <a
+                  href="/resume.pdf"
+                  download="Fathima_Shafa_Resume.pdf"
+                  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors font-medium inline-block text-center"
+                >
                   Download Resume
-                </button>
+                </a>
                 <a
                   href="https://github.com/shafa7"
                   target="_blank"
