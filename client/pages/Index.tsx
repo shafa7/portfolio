@@ -197,7 +197,7 @@ export default function Index() {
               {/* Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 mt-12">
                 <a
-                  href="/resume.pdf"
+                  href="https://cdn.builder.io/o/assets%2Ffead11d773a74808a0ed43cbc03bffc9%2Feaf269f0027c4448bc09eee3ed7ec8d6?alt=media&token=c4770cd6-840f-437f-9517-e06cab207463&apiKey=fead11d773a74808a0ed43cbc03bffc9"
                   download="Fathima_Shafa_Resume.pdf"
                   className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg transition-colors font-medium inline-block text-center"
                 >
