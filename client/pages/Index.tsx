@@ -276,7 +276,9 @@ export default function Index() {
               <h3 className="text-xl font-semibold text-white mb-2">
                 Software Development Student Intern
               </h3>
-              <p className="text-gray-300 mb-2">Academor • October 2023 to December 2023</p>
+              <p className="text-gray-300 mb-2">
+                Academor • October 2023 to December 2023
+              </p>
               <p className="text-gray-300">
                 Developed and maintained web applications using modern
                 technologies. Collaborated with senior developers to implement
